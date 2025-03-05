@@ -1,0 +1,5 @@
+a=list(map(int, input().split()))
+i=int(input())
+v=int(input())
+a.insert(i, v)
+print(a)
